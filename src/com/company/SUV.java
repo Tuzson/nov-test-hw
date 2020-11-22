@@ -13,7 +13,7 @@ public class SUV extends Car{
 
     @Override
     public int getNrOfSeats() {
-        return 0;
+        return nrOfSeats;
     }
 
     @Override

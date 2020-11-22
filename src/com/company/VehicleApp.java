@@ -16,6 +16,9 @@ public class VehicleApp {
         if (v.getNrOfSeats()>5){
             message = "Családos embereknek ajánlott.";
         }
+        if (v.getBootCapacity() > 1200){
+            message = "Cégeknek";
+        }
         return message;
     }
 }

@@ -19,7 +19,7 @@ public class Van extends Car{
 
     @Override
     public int getBootCapacity() {
-        return 0;
+        return bootCapacity;
     }
 
     @Override
